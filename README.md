@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React_Wars
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project displays Information from a starWars Api while applying the state management concepts in React.js
 
 ## Available Scripts
 
