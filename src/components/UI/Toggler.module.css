@@ -1,0 +1,55 @@
+.toggler{display: flex;
+  
+  margin-left: 40%;
+  
+    margin-top: 3%;
+}
+.toggler span{position: relative;
+  right: 15%;
+}
+.toggler input[type=checkbox]{
+  
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+.toggler label{
+
+  
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 50px;
+    height: 25px;
+    background: grey;
+    
+    border-radius: 100px;
+    position: relative;
+    top:2%;
+    left: 3%;
+  }
+  
+  .toggler label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 22.5px;
+    height: 22.5px;
+    background: #fff;
+    border-radius: 22.5px;
+    transition: 0.1s;
+  }
+  
+  .toggler input:checked + label {
+    background: #bada55;
+  }
+  
+  .toggler input:checked +  label:after {
+    left: calc(100% - 1.25px);
+    transform: translateX(-100%);
+  }
+  
+  .toggler label:active:after {
+    width: 32.5px;
+  }

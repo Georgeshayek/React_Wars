@@ -1,0 +1,18 @@
+.Button{
+    background-color: grey;
+    color:white;
+    font-size: large;
+    padding: 1.5%;
+    width: 175px;
+    border-radius: 2rem;
+}
+.Button:hover{
+    cursor: pointer;
+    background-color:whitesmoke;
+    border-color: grey;
+    color: grey;
+    box-shadow: 0 1.5px 1.5px 1.5px grey;
+}
+@media screen and (max-width: 600px) {.Button{
+    height:60px;
+}}

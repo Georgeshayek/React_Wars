@@ -1,0 +1,63 @@
+.main{
+    
+   
+    position: relative;
+    bottom: -35px;
+    color:white;
+    height: fit-content;
+    
+    width: 20%;
+    height: 28vh;
+    z-index: 1;
+   
+   
+    display: inline-block;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #454545 ;
+    overflow-x: hidden  ;
+}
+
+  
+
+.main span{
+    margin-top: 6%;
+    display: block;
+   font-weight: lighter;
+   font-size: large;
+}
+.cont{
+    border-bottom:solid 2px black ;
+
+}
+.cont1{
+    height: 30%;
+    font-size: larger;
+    padding:5px;
+}
+@media screen and (max-width: 600px) {
+
+
+    .main span{
+         
+       font-size:medium;
+    }
+    .main{
+        width:27% ;
+        margin-left: 5%;
+        height: 29vh;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+
+    .main span{
+         
+       font-size:medium;
+    }
+    .main{
+        width:27% ;
+        margin-left: 5%;
+        height: 29vh;
+    }
+}
